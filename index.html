@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JASUR – Coming Soon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="c"></canvas>
+    <div class="grain"></div>
+
+    <div class="page">
+
+        <!-- Top -->
+        <header class="topbar">
+            <div class="logo">
+                <div class="logo-icon">D</div>
+                <span class="logo-name">Delivue</span>
+            </div>
+            <span class="badge">Coming Soon</span>
+        </header>
+
+        <!-- Center -->
+        <main class="center">
+            <div class="eyebrow">
+                <span class="eyebrow-dot"></span>
+                Segera Hadir di Kota Anda
+            </div>
+
+            <h1>Delivery<br><span class="accent">Via WhatsApp.</span></h1>
+
+            <p class="sub">
+                Tidak perlu install aplikasi. Harga outlet asli, tanpa markup.
+            </p>
+
+            <!-- Countdown -->
+            <div class="countdown">
+                <div class="cd-block">
+                    <span class="cd-num" id="cd-d">00</span>
+                    <span class="cd-label">Hari</span>
+                </div>
+                <span class="cd-sep">:</span>
+                <div class="cd-block">
+                    <span class="cd-num" id="cd-h">00</span>
+                    <span class="cd-label">Jam</span>
+                </div>
+                <span class="cd-sep">:</span>
+                <div class="cd-block">
+                    <span class="cd-num" id="cd-m">00</span>
+                    <span class="cd-label">Menit</span>
+                </div>
+                <span class="cd-sep">:</span>
+                <div class="cd-block">
+                    <span class="cd-num" id="cd-s">00</span>
+                    <span class="cd-label">Detik</span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
